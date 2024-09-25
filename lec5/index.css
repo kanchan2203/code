@@ -1,0 +1,21 @@
+.ball {
+    width: 100px;
+    margin: 20px auto;
+    height: 100px;
+    background: linear-gradient(blue, red);
+    border-radius: 99999999%;
+    border: 5px solid black;
+    /* animation-name: bounce;
+    animation-duration: ; */
+animation: 900ms ease-in 0s infinite alternate none running bounce;
+}
+ @keyframes bounce {
+    0%{
+        transform: translateY(0px);
+
+    }
+    100%{
+        transform: translateY(83vh);
+    }
+    
+ }

@@ -1,0 +1,25 @@
+#parent{
+    height: 400px;
+    background-color: blueviolet;
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+#parent div{
+    height: 100px;
+    width: 100px;
+}
+
+#one{
+    background-color: red;
+}
+
+#two{
+    background-color: blue;
+}
+
+#three{
+    background-color: yellow;
+}
